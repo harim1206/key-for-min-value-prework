@@ -12,6 +12,14 @@ def key_for_min_value(name_hash)
 
   }
 
+  name_hash.each{ |name, key|
+
+    if key == x.min
+      return name
+    end
+  }
+
+
   puts("x: #{x}")
 
 end
