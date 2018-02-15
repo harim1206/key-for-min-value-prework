@@ -3,6 +3,8 @@
 
 def key_for_min_value(name_hash)
 
+  x = []
+
   name_hash.map{ |name, key|
 
     x = key
