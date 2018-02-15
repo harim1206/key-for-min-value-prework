@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
 
   x = []
+  puts("name_hash: #{name_hash}")
 
   name_hash.map{ |name, key|
 
